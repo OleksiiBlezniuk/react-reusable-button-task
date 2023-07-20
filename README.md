@@ -1,12 +1,12 @@
 # React reusable button task
 
 Given the "Movie search" app purpose of wich is to search movies and save them to favourites list.
-After recent team planning your team decided to expand this app ability and to create new pages.
+After recent team planning your team decided to expand this app and to create new pages.
 Considering that - you were decided to create a reusable button component to make your life a bit easier.
 
 ## Task
 
-Your task is to create a reusable button component. Write code in Button.tsx and Button.module.scss
+Your task is to create a reusable button component. Write code in `Button.tsx` and `Button.module.scss`
 
 Keep in mind that there are:
 
