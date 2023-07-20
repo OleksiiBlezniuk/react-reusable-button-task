@@ -1,0 +1,47 @@
+@import "../../variables";
+
+.form {
+  display: flex;
+}
+
+.searchInput {
+  padding: 10px;
+  width: 480px;
+  font-size: 16px;
+}
+
+.submitButton {
+  position: relative;
+  display: flex;
+  background-color: $c-primary;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 12px 8px;
+  color: $c-white;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.leftIcon {
+  margin-right: 8px;
+  display: flex;
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.buttonContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  opacity: 0;
+}
+

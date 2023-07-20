@@ -1,0 +1,62 @@
+@import "../../../variables";
+
+.moviePoster {
+  height: 280px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.movieTitle {
+  text-align: center;
+}
+
+.movieInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movieType {
+  text-align: center;
+  padding: 12px;
+  background-color: $c-secondary;
+  border-radius: 8px;
+}
+
+.movie {
+  background-color: $c-yellow;
+}
+
+.series {
+  background-color: $c-light-blue;
+}
+
+.episode {
+  background-color: $c-pale-blue;
+}
+
+
+.favouritesButton {
+  display: flex;
+  background-color: #ededed;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 12px;
+  width: 100%;
+  color: #555;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.favouritesButtonActive {
+  background-color: #dc3545;
+  color: white;
+}
+
+.rightIcon {
+  margin-left: 8px;
+  display: flex;
+}
