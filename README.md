@@ -20,9 +20,10 @@ Keep in mind that there are:
 - secondary (gray)
 - danger (red)
 
-**Button should be able to accept icon (both on the left and on the right side)**
-**Button should be able to have loading state**
-**Button should be able to have disabled state**
+### Other requirements
+- **Button should be able to accept icon (both on the left and on the right side)**
+- **Button should be able to have loading state**
+- **Button should be able to have disabled state**
 
 ## Task restrictions
 
